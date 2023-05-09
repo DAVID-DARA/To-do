@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    background-image: url("../../images/homepage/cool-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+}
+
+.content .left {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    width: 38%;
+    height: 624px;
+    position: absolute;
+}
+
+.content .left .nav-bar {
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: justify;
+    width: 80%;
+}
+
+.nav-bar img {
+    width: 9%;
+}
+
+.nav-bar a {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 9px;
+}
+
+.nav-bar a:hover {
+	cursor: pointer;
+}
+
+.info {
+    position: relative;
+    top: 210px;
+    width: 90%;
+}
+
+.info h1 {
+    padding: 40px 15px 0px 50px;
+    padding-bottom: 0px; 
+    font-size: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+
+.info p {
+    margin-top: 10px;
+    padding: 10px 50px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.info button {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    font-weight: bold;
+    border: 0px;
+}
+
+.info button:hover {
+    color: blueviolet;
+    transition: 0.2s;
+}
+
+.content .right {
+    position: relative;
+    width: 836px;
+    float: right;
+}
+
+    .right img {
+        width: 50%;
+    }
+
+    .content .one {
+        width: 70%;
+        height: 400px;
+        position: absolute;
+        top: 115px;
+        left: 135px;
+
+    }
+
+    .content .two {
+        position: absolute;
+        left: 555px;
+        top: 45px;
+        width: 25%;
+    }
